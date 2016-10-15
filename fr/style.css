@@ -387,7 +387,7 @@ body.testB  {
     position: absolute;
     left: 0; 
   right: 0; 
-    top: 10%;
+    top: 7%;
   margin-left: auto; 
   margin-right: auto;
     width: 100%;
@@ -401,7 +401,7 @@ body.testB  {
 }
 
 .selectPaymentMethod .paymentMethods li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .selectPaymentMethod .secureLine {
@@ -429,7 +429,7 @@ body.testB  {
 
 .selectPaymentMethod .policy {
     color: #666;
-    margin-top:20px;
+    margin-top:30px;
 }
 
 .selectPaymentMethod .policy a {
