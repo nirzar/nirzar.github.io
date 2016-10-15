@@ -55,7 +55,7 @@
                                 </span>
                                 <span>
                                 <input id="rad2" type="radio" name="radioBtn">
-                                <label class="labels" for="rad2">Monthly 😍</label>
+                                <label class="labels" for="rad2">Monthly 👏</label>
                                 </span>
                             </div>
                         </li>
