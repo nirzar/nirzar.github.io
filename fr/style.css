@@ -34,14 +34,13 @@ ul {
 .wikipedia-logo {
     display: block;
     background-image: url('images/wikipedia-black.svg');
-    height: 32px;
-    background-size: 120px 20px;
+    height: 18px;
+    background-size:contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     width: 100%;
     background-position: top left;
-    margin-bottom: 10px;
-    border-bottom: 1px dotted rgba(0,0,0,0.1);
+    
 }
 .overlay {
     max-width: 800px;
@@ -81,14 +80,16 @@ max-width: 500px;
 
 .ourStory {
     text-align: left;
-    padding: 20px;
-    
+    padding:20px;
 }
 .ourStory h1 {
     font-size: 17px;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
+border-top: 1px dotted rgba(0,0,0,0.1);
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .ourStory .bodyText{
     margin: 0;
@@ -542,8 +543,6 @@ body.testB  {
 
 .testB .wikipedia-logo {
     background-image: url(images/wikipedia-white.svg);
-    border-bottom-color: #444;
-    background-size: 131px 20px;
 }
 
 .testB .dismissOverlay {
