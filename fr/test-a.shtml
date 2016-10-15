@@ -52,9 +52,9 @@
                         <div class="hrule"></div>
                     </div>
                     <ul class="columns paymentMethods clearfix">
-                        <li><a href="#">Credit</a></li>
-                        <li><a href="#">Papal</a></li>
-                        <li><a href="#">Amazon</a></li>
+                        <li class="paymentMethod1"><a href="#">Credit / Debit Cards</a></li>
+                        <li class="paymentMethod2"><a href="#">Papal</a></li>
+                        <li class="paymentMethod3"><a href="#">Amazon</a></li>
                     </ul>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
                 </div>

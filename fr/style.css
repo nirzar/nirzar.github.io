@@ -226,3 +226,28 @@ p.policy a{
     border-bottom: 1px solid  rgba(255,255,255,0.5);
     text-decoration: none;
 }
+
+li.paymentMethod1 a{
+    background-image: url(images/cc-dc.png);
+    background-repeat: no-repeat;
+    background-size: 41px 27px;
+    background-position: center 3px;
+    text-indent: 0px;
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+    padding-top: 30px;
+    font-weight: bold;
+}
+li.paymentMethod2 a{
+    background-image: url(images/paypal.png);
+    background-repeat: no-repeat;
+    background-size: 68px 18px;
+    background-position: center 16px;
+}
+li.paymentMethod3 a{
+    background-image: url(images/amazon.png);
+    background-repeat: no-repeat;
+    background-size: 69px 25px;
+    background-position: center 16px;
+}
