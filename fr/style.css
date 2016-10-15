@@ -34,11 +34,10 @@ ul {
 .wikipedia-logo {
     display: block;
     background-image: url('images/wikipedia-black.svg');
-    height: 18px;
-    background-size:contain;
+    height: 20px;
     background-repeat: no-repeat;
     text-indent: -9999px;
-    width: 100%;
+    
     background-position: top left;
     
 }
@@ -376,7 +375,6 @@ body.testB  {
     background-repeat: no-repeat;
     background-position: center center;
     height: 30px;
-    
 }
 
 .amountsToDonate li:first-child {
