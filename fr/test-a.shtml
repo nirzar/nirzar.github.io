@@ -69,6 +69,9 @@
         </div>
 
         <script type="application/javascript">
-
+            $( document ).ready(function() {
+                $('.paymentMethods').opacity
+                
+            });
         </script>
     </body>
