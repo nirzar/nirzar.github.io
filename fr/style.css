@@ -374,7 +374,7 @@ body.testB  {
     position: absolute;
     top: 0;
     left: 0;
-    
+    z-index: 4;
 }
 
 .selectPaymentMethod .waysToGive {
@@ -389,9 +389,10 @@ body.testB  {
     top: 10%;
   margin-left: auto; 
   margin-right: auto;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     color: #666;
+    z-index: 6;
 }
 
 .selectPaymentMethod .secureLine {
@@ -401,7 +402,7 @@ body.testB  {
 .titleBar li {
     list-style: none;
     float: left;
-    width: 50%;
+    width: 70%;
     display: block;
 }
 
