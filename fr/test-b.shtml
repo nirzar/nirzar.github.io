@@ -41,7 +41,7 @@
             <div class="dismissOverlay clearfix">
                 <ul class="dismissActions">
                     <li><a href="#" class="secondaryDismiss">Remind me later</a></li>
-                    <li><a href="#" class="primaryDismiss">Close</a></li>
+                    <li><a href="#" class="primaryDismiss">&times; close</a></li>
                 </ul>
             </div>
 
