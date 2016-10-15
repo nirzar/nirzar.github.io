@@ -35,7 +35,7 @@ ul {
     text-indent: -9999px;
     background-image: url(images/wikipedia-black.svg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center left;
     height: 30px;    
 }
 .overlay {
