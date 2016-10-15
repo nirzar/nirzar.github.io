@@ -51,10 +51,10 @@
                         <span class="patch"><span class="lockIcon"></span>Secure $3 Payment With</span>
                         <div class="hrule"></div>
                     </div>
-                    <ul class="columns paymentMethods clearfix">
-                        <li class="paymentMethod1"><a href="#">Credit / Debit Cards</a></li>
-                        <li class="paymentMethod2"><a href="#">Papal</a></li>
-                        <li class="paymentMethod3"><a href="#">Amazon</a></li>
+                    <ul class="paymentMethods clearfix">
+                        <li class="paymentMethod1"><a href="#">Pay with Credit / Debit Cards</a></li>
+                        <li class="paymentMethod2"><a href="#">Pay with Papal</a></li>
+                        <li class="paymentMethod3"><a href="#">Pay with Amazon</a></li>
                     </ul>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
                 </div>

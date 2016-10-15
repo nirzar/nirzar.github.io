@@ -228,13 +228,49 @@ body {
     box-shadow: 0px 2px 8px rgba(0,0,0,0.3), 0px 1px 1px rgba(0,0,0,0.2);
     border-radius: 3px;
     height: 48px;
-    text-indent: -9999px;
     display: block;
     position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 15px;
+        text-align: left;
+    padding-left: 100px;
+
 }
 .paymentMethods li a:active {
     box-shadow: none;
     top:1px;
+}
+
+
+
+.paymentMethods {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+.paymentMethods li {
+    margin-bottom: 10px;
+}
+li.paymentMethod1 a{
+    background-image: url(images/cc-dc.png);
+    background-repeat: no-repeat;
+    background-size: 41px 27px;
+    background-position: 20px 10px;
+}
+li.paymentMethod2 a{
+    background-image: url(images/paypal.png);
+    background-repeat: no-repeat;
+    background-size: 68px 18px;
+    background-position: 20px 17px;
+}
+li.paymentMethod3 a{
+    background-image: url(images/amazon.png);
+    background-repeat: no-repeat;
+    background-size: 69px 25px;
+    background-position:20px 16px;
 }
 
 p.policy {
@@ -246,30 +282,5 @@ p.policy a{
     color: rgba(255,255,255,0.9);
     border-bottom: 1px solid  rgba(255,255,255,0.5);
     text-decoration: none;
+    
 }
-
-li.paymentMethod1 a{
-    background-image: url(images/cc-dc.png);
-    background-repeat: no-repeat;
-    background-size: 41px 27px;
-    background-position: center 3px;
-    text-indent: 0px;
-    font-size: 10px;
-    color: #333;
-    text-decoration: none;
-    padding: 30px 2px 0px 2px;
-    font-weight: bold;
-}
-li.paymentMethod2 a{
-    background-image: url(images/paypal.png);
-    background-repeat: no-repeat;
-    background-size: 68px 18px;
-    background-position: center 16px;
-}
-li.paymentMethod3 a{
-    background-image: url(images/amazon.png);
-    background-repeat: no-repeat;
-    background-size: 69px 25px;
-    background-position: center 16px;
-}
-
