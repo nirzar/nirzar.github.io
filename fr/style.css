@@ -32,14 +32,11 @@ ul {
 
 
 .wikipedia-logo {
-    display: block;
-    background-image: url('images/wikipedia-black.svg');
-    height: 20px;
-    background-repeat: no-repeat;
     text-indent: -9999px;
-    
-    background-position: top left;
-    
+    background-image: url(images/wikipedia-white.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30px;    
 }
 .overlay {
     max-width: 800px;
