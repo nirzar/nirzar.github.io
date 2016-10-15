@@ -487,11 +487,14 @@ body.testB  {
 }
 
 .selectPaymentMethod .backLink {
-    display: block;
+    display: inline-block;
     font-size: 14px;
     color: #36c;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
+    background: #F2F4F7;
+    float: left;
+    border-radius: 2px;
 }
