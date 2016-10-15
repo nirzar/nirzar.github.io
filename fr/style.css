@@ -10,6 +10,11 @@ body {
     box-sizing: border-box;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -162,7 +167,6 @@ body {
 */
 .donationAmount [type=radio]{
     display: none;
-
 }
 
 .columns {
@@ -187,6 +191,7 @@ body {
     clear: both;
     margin-top: 15px;
     text-align: center;
+    padding: 10px 20px;
 
 }
 .secureLine {
@@ -221,8 +226,16 @@ body {
 
 }
 .paymentMethods {
+    list-style: none;
+    margin: 0;
+    
     margin-top: 15px;
 }
+.paymentMethods li {
+    margin-bottom: 10px;
+}
+
+
 .paymentMethods li a {
     background: #fff;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.3), 0px 1px 1px rgba(0,0,0,0.2);
@@ -235,7 +248,7 @@ body {
     color: #333;
     text-decoration: none;
     padding: 15px;
-        text-align: left;
+    text-align: left;
     padding-left: 100px;
 
 }
@@ -246,14 +259,7 @@ body {
 
 
 
-.paymentMethods {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-}
-.paymentMethods li {
-    margin-bottom: 10px;
-}
+
 li.paymentMethod1 a{
     background-image: url(images/cc-dc.png);
     background-repeat: no-repeat;
@@ -368,12 +374,13 @@ body.testB  {
     position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    
 }
 
 .selectPaymentMethod .waysToGive {
-    background: #fff;
-    height: 50%;
+    background: #EAECF0;
+    padding: 30px 20px;
+    
     border-radius: 2px;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
     position: absolute;
@@ -384,4 +391,51 @@ body.testB  {
   margin-right: auto;
     width: 90%;
     max-width: 400px;
+    color: #666;
+}
+
+.selectPaymentMethod .secureLine {
+    
+}
+
+.titleBar li {
+    list-style: none;
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+.titleBar li:first-child {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.titleBar .segmentedControl {
+    background-color: #fff;
+    padding: 2px 0;
+    border-radius: 30px;
+}
+
+.segmentedControl label {
+    padding: 8px 15px;
+    display: block;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.segmentedControl span {
+    display: inline-block;
+    left: -2px;
+    position: relative;
+}
+.segmentedControl input[type=radio] {
+    display: none;
+}
+
+.segmentedControl [type=radio]:checked ~ label {
+    background: #EAF3FF;
+    color: #36c;
+    
 }

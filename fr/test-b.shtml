@@ -45,15 +45,30 @@
             <!-- modal window for paying -->
             <div class="selectPaymentMethod whitewash">
                 <div class="waysToGive">
-                    <div class="secureLine">
-                        <span class="patch"><span class="lockIcon"></span>Secure $3 Payment With</span>
-                        <div class="hrule"></div>
-                    </div>
+                    <ul class="titleBar clearfix">
+                        <li>$3</li>
+                        <li>
+                            <div class="segmentedControl">
+                               <span>
+                                <input id="rad1" type="radio" name="radioBtn" checked>
+                                <label class="labels" for="rad1">One time</label>
+                                </span>
+                                <span>
+                                <input id="rad2" type="radio" name="radioBtn">
+                                <label class="labels" for="rad2">Monthly</label>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
                     <ul class="paymentMethods clearfix">
                         <li class="paymentMethod1"><a href="#">Pay with Credit / Debit Cards</a></li>
                         <li class="paymentMethod2"><a href="#">Pay with Papal</a></li>
                         <li class="paymentMethod3"><a href="#">Pay with Amazon</a></li>
                     </ul>
+                    <div class="secureLine">
+                        <span class="patch"><span class="lockIcon"></span>Secure $3 Payment With</span>
+                        <div class="hrule"></div>
+                    </div>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
                 </div>
 
@@ -67,7 +82,7 @@
             $( document ).ready(function() {
 
                 $( ".amountsToDonate li a" ).on('click touchstart',function() {
-
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
                     $(".selectPaymentMethod").fadeIn();
 
                 });
