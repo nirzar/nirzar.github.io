@@ -10,13 +10,13 @@ body {
 }
 
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
@@ -30,11 +30,11 @@ body {
     height: 32px;
     background-size: 120px 20px;
     background-repeat: no-repeat;
-text-indent: -9999px;
+    text-indent: -9999px;
     width: 100%;
     background-position: top left;
     margin-bottom: 10px;
-    
+
     border-bottom: 1px dotted rgba(0,0,0,0.1);
 }
 .overlay {
@@ -59,8 +59,8 @@ text-indent: -9999px;
     margin: 0;
     font-size: 17px;
     font-weight: 500;
-    line-height: 25px;
-    
+    line-height: 27px;
+
 }
 .ourStory .bodyText .highlight {
     background: #FDFF5A;
@@ -110,36 +110,40 @@ text-indent: -9999px;
 
 .donationAmount label .otherAmount::-webkit-input-placeholder
 { 
-  color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
     font-weight: normal;
 }
 .donationAmount label .otherAmount::-moz-placeholder
 { 
-  color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
     font-weight: normal;
 }
 .donationAmount label .otherAmount:-moz-placeholder
 { 
-  color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
     font-weight: normal;
 }
 .donationAmount label .otherAmount:-ms-input-placeholder
 { 
-  color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
     font-weight: normal;
 }
 
 
+/*
 .donationAmount label .surprise {
     display: none;
     position: absolute;
     top: 1px;
     right: 15px;
 }
+*/
 
+/*
 .donationAmount [type=radio]:checked ~ label .surprise {
-   display: inherit;
+    display: inherit;
 }
+*/
 .donationAmount [type=radio]{
     display: none;
 
@@ -167,7 +171,7 @@ text-indent: -9999px;
     clear: both;
     margin-top: 15px;
     text-align: center;
-    
+
 }
 .secureLine {
     font-size: 12px;
@@ -176,8 +180,8 @@ text-indent: -9999px;
 .secureLine .patch {
     background: #00AF89;
     z-index: 2;
-        position: relative;
-padding: 0 10px;
+    position: relative;
+    padding: 0 10px;
 }
 .secureLine .hrule {
     height: 1px;
@@ -197,7 +201,7 @@ padding: 0 10px;
     height: 14px;
     width: 14px;
     background-repeat: no-repeat;
-    
+
 }
 .paymentMethods {
     margin-top: 15px;

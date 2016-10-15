@@ -8,20 +8,20 @@
 
         <title>Test A - Large - WMF Donations</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
 
         <link type='text/css' rel='stylesheet' href='style.css' />
     </head>
     <body>
         <div class="overlay donationOverlay">
             <div class="ourStory">
-               <div class="wikipedia-logo">
-                   Wikipedia
-               </div>                
-               <h1>Dear readers,</h1>
+                <div class="wikipedia-logo">
+                    Wikipedia
+                </div>                
+                <h1>Dear readers,</h1>
                 <p class="bodyText">We'll get right to it: Today we ask you to help Wikipedia. To protect our independence ✊, we'll never run ads. Only a tiny portion of our readers give. If everyone reading this right now gave $3, our fundraiser would be done within an hour. That's right, the price of a cup of coffee ☕ is all we need. We're a non-profit with the costs of a top website: servers, staff and programs 💸 <br/><span class="highlight">We believe everyone should have access to knowledge—for free, without restriction, without limitation.</span> If Wikipedia is useful to you, please take one minute to keep it online and growing.
-<br />
- <big>🙌 </big> Thank you!
+                    <br />
+                    <big>🙌 </big> Thank you!
                 </p>
 
             </div>
