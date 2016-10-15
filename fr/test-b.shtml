@@ -46,7 +46,7 @@
             <div class="selectPaymentMethod whitewash">
                 <div class="waysToGive">
                     <ul class="titleBar clearfix">
-                        <li>$3</li>
+                        <li><span class="currenySign">$</span>3</li>
                         <li>
                             <div class="segmentedControl">
                                <span>
