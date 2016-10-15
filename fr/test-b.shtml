@@ -6,14 +6,14 @@
     <!--[if !IE]><!--> <html lang="en" class="nonIE"><!--<![endif]-->
     <head>
 
-        <title>Test A - Large - WMF Donations</title>
+        <title>Test B - Large - WMF Donations</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
         <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
         <link type='text/css' rel='stylesheet' href='style.css' />
     </head>
-    <body>
-        <div class="overlay donationOverlay">
+    <body class="testB">
+        <div class="overlay donationOverlay ">
             <div class="ourStory">
                 <div class="wikipedia-logo">
                     Wikipedia
@@ -27,24 +27,23 @@
             </div>
             <div class="ourAction">
                 <div class="donationAmount">
-                    <form action="demo_form.asp">
-                        <ul class="columns clearfix">
-                            <li>
-                                <input type="radio" name="amount" id="amt-3" value="3">
-                                <label for="amt-3">$3 <span class="surprise">☕</span></label>
-                            </li>
-                            <li>
-                                <input type="radio" name="amount" id="amt-10" value="10"> 
-                                <label for="amt-10">$10 <span class="surprise">😍</span></label>                       
-                            </li>
-                            <li>
-
-                                <input type="radio" name="amount" id="amt-other" value="other">
-                                <label for="amt-other"><input type="number" placeholder="Other" class="otherAmount" /></label>
-                            </li>
-                        </ul>
-                    </form>
+                    <p class="chooseAmountTitle">Choose an amount</p>
+                    <ul class="amountsToDonate clearfix">
+                        <li><a href="#">$3</a></li>
+                        <li><a href="#">$12</a></li>
+                    </ul>
+                    <p class="chooseAmountHelp">ℹ️ $3 will help readers read 100 articles</p>
                 </div>
+
+
+
+            </div>
+            <div class="dismissOverlay">
+
+            </div>
+
+            <!-- modal window for paying -->
+            <div class="selectPaymentMethod whitewash">
                 <div class="waysToGive">
                     <div class="secureLine">
                         <span class="patch"><span class="lockIcon"></span>Secure $3 Payment With</span>
@@ -52,20 +51,28 @@
                     </div>
                     <ul class="paymentMethods clearfix">
                         <li class="paymentMethod1"><a href="#">Pay with Credit / Debit Cards</a></li>
-                        <li class="paymentMethod2"><a href="#">Pay with PayPal</a></li>
+                        <li class="paymentMethod2"><a href="#">Pay with Papal</a></li>
                         <li class="paymentMethod3"><a href="#">Pay with Amazon</a></li>
                     </ul>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
                 </div>
 
             </div>
-            <div class="dismissOverlay">
 
-            </div>
-
+            <!-- end modal -->
         </div>
 
         <script type="application/javascript">
 
+            $( document ).ready(function() {
+
+                $( ".amountsToDonate li" ).click(function() {
+
+                    $(".selectPaymentMethod").fadeIn();
+
+                });
+
+
+            });
         </script>
     </body>
