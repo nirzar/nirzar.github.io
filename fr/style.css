@@ -263,7 +263,7 @@ ul {
 li.paymentMethod1 a{
     background-image: url(images/cc-dc.png);
     background-repeat: no-repeat;
-    background-size: 41px 27px;
+    background-size: 50px 26px;
     background-position: 20px 10px;
 }
 li.paymentMethod2 a{
@@ -276,7 +276,7 @@ li.paymentMethod3 a{
     background-image: url(images/amazon.png);
     background-repeat: no-repeat;
     background-size: 69px 25px;
-    background-position:20px 16px;
+    background-position:20px 17px;
 }
 
 p.policy {
