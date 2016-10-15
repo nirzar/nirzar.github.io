@@ -409,6 +409,7 @@ body.testB  {
     text-align: left;
     font-size: 30px;
     font-weight: 200;
+    width: 30%;
 }
 
 .titleBar .segmentedControl {
