@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
+    background: #EAECF0;
 }
 * {
     box-sizing: border-box;
@@ -47,7 +47,7 @@ body {
 .ourStory {
     text-align: left;
     padding: 20px;
-    background: #EAECF0;
+    
 }
 .ourStory h1 {
     font-size: 17px;
@@ -71,8 +71,23 @@ body {
     padding: 20px 0px;
     color: #fff;
     -webkit-transition:all 0.3s ease-in;
+    position: relative;
 }
 
+.ourAction:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #00AF89;
+	border-width: 10px;
+	margin-left: -10px;
+}
 
 .donationAmount label {
     display: inline-block;
