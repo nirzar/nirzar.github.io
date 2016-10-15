@@ -1,0 +1,68 @@
+<html lang="en">
+    <!--[if IE 7]>     <html class="ie ie7 ltie9 ltie8 ltie10" lang="en"> <![endif]-->
+    <!--[if IE 8]>     <html class="ie ie8 ltie9 ltie10" lang="en"> <![endif]-->
+    <!--[if IE 9]>     <html class="ie ie9 ltie10" lang="en"> <![endif]-->
+    <!--[if IE 10]>  <html class="ie ie10" lang="en"> <![endif]-->
+    <!--[if !IE]><!--> <html lang="en" class="nonIE"><!--<![endif]-->
+    <head>
+
+        <title>Test A - Large - WMF Donations</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link type='text/css' rel='stylesheet' href='style.css' />
+    </head>
+    <body>
+        <div class="overlay donationOverlay">
+            <div class="ourStory">
+               <div class="wikipedia-logo">
+                   Wikipedia
+               </div>                
+               <h1>Dear readers,</h1>
+                <p class="bodyText">We'll get right to it: Today we ask you to help Wikipedia. To protect our independence ✊, we'll never run ads. Only a tiny portion of our readers give. If everyone reading this right now gave $3, our fundraiser would be done within an hour. That's right, the price of a cup of coffee ☕ is all we need. We're a non-profit with the costs of a top website: servers, staff and programs 💸 <br/><span class="highlight">We believe everyone should have access to knowledge—for free, without restriction, without limitation.</span> If Wikipedia is useful to you, please take one minute to keep it online and growing.
+<br />
+ <big>🙌 </big> Thank you!
+                </p>
+
+            </div>
+            <div class="ourAction">
+                <div class="donationAmount">
+                    <form action="demo_form.asp">
+                        <ul class="columns clearfix">
+                            <li>
+                                <input type="radio" name="amount" id="amt-3" value="3" checked>
+                                <label for="amt-3">$3 <span class="surprise">☕</span></label>
+                            </li>
+                            <li>
+
+                                <input type="radio" name="amount" id="amt-10" value="10"> 
+                                <label for="amt-10">$10 <span class="surprise">😍</span></label>                       
+                            </li>
+                            <li>
+
+                                <input type="radio" name="amount" id="amt-other" value="other">
+                                <label for="amt-other"><input type="number" placeholder="Other" class="otherAmount" /></label>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="waysToGive">
+                    <div class="secureLine">
+                        <span class="patch"><span class="lockIcon"></span>Secure {%} Payment With</span>
+                        <div class="hrule"></div>
+                    </div>
+                    <ul class="columns paymentMethods clearfix">
+                        <li><a href="#">Credit</a></li>
+                        <li><a href="#">Papal</a></li>
+                        <li><a href="#">Amazon</a></li>
+                    </ul>
+                    <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
+                </div>
+
+            </div>
+            <div class="dismissOverlay">
+
+            </div>
+
+        </div>
+
+
+    </body>

@@ -1,0 +1,223 @@
+/* stylesheet for donations */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.wikipedia-logo {
+    display: block;
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png');
+    height: 32px;
+    background-size: 120px 20px;
+    background-repeat: no-repeat;
+text-indent: -9999px;
+    width: 100%;
+    background-position: top left;
+    margin-bottom: 10px;
+    
+    border-bottom: 1px dotted rgba(0,0,0,0.1);
+}
+.overlay {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ourStory {
+    text-align: left;
+    padding: 20px;
+    background: #EAECF0;
+}
+.ourStory h1 {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.ourStory .bodyText{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+.ourStory .bodyText .highlight {
+    background: #FDFF5A;
+    padding: 2px 5px;
+}
+
+.ourAction {
+    background-color: #00AF89;
+    padding: 20px 0px;
+    color: #fff;
+    -webkit-transition:all 0.3s ease-in;
+}
+
+
+.donationAmount label {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 2px;
+    letter-spacing: 0.09em;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding:0  10px ;
+    text-align: center;
+    position: relative;
+    line-height: 48px;
+    color: #fff;
+}
+.donationAmount [type=radio]:checked ~ label {
+    background: #fff;
+    color: #666;
+}
+
+.donationAmount label .otherAmount {
+    -webkit-appearance:none;
+    border: none;
+    color: #666;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+}
+
+.donationAmount label .otherAmount::-webkit-input-placeholder
+{ 
+  color: rgba(255,255,255,0.8);
+    font-weight: normal;
+}
+.donationAmount label .otherAmount::-moz-placeholder
+{ 
+  color: rgba(255,255,255,0.8);
+    font-weight: normal;
+}
+.donationAmount label .otherAmount:-moz-placeholder
+{ 
+  color: rgba(255,255,255,0.8);
+    font-weight: normal;
+}
+.donationAmount label .otherAmount:-ms-input-placeholder
+{ 
+  color: rgba(255,255,255,0.8);
+    font-weight: normal;
+}
+
+
+.donationAmount label .surprise {
+    display: none;
+    position: absolute;
+    top: 1px;
+    right: 15px;
+}
+
+.donationAmount [type=radio]:checked ~ label .surprise {
+   display: inherit;
+}
+.donationAmount [type=radio]{
+    display: none;
+
+}
+
+.columns {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.columns li {
+    display: inline-block;
+    float: left;
+    margin-right: 4%;
+    width: 27%;
+}
+.columns li:first-child {
+    margin-left: 5%;
+}
+.columns li:last-child {
+    margin-right: 0;
+}
+
+.waysToGive {
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.secureLine {
+    font-size: 12px;
+    letter-spacing: 0.07em;
+}
+.secureLine .patch {
+    background: #00AF89;
+    z-index: 2;
+        position: relative;
+padding: 0 10px;
+}
+.secureLine .hrule {
+    height: 1px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    background: rgba(255,255,255,0.2);
+    z-index: 1;
+}
+.lockIcon:before {
+    content: "";
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgMTAgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQwLjEgKDMzODA0KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5QYWdlIDE8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0ib3B0aW9ucyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InN0ZXAxLWNvcHktNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwNC4wMDAwMDAsIC01MDAuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC00IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDQuMDAwMDAwLCA0NTUuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC4wMDAwMDAsIDQ1LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik05LjY2ODA1MzQ3LDQuODcyMDM3MzEgTDguNjIwMjA4OTEsNC44NzIwMzczMSBMOC42MjAyMDg5MSw0LjA3ODQ2MzggQzguNTc3OTQxMDUsMi4xMDkzNTY5NSA2Ljk2OTEwNjg0LDAuNTM0MTYgNSwwLjUzNDE2IEMzLjAzMDAwNzk3LDAuNTM0MTYgMS40MjExNzM3NiwyLjEwOTM1Njk1IDEuMzc4OTA1OSw0LjA3ODQ2MzggTDEuMzc4OTA1OSw0Ljg3MjAzNzMxIEwwLjMzMTk0NjUzNCw0Ljg3MjAzNzMxIEMwLjE0ODcxMjA0Nyw0Ljg3MjAzNzMxIDAsNS4wMjA3NDkzNiAwLDUuMjAzOTgzODUgTDAsMTIuODM4NzU0MSBDMCwxMy4wMjE5ODg2IDAuMTQ4NzEyMDQ3LDEzLjE3MDcwMDcgMC4zMzE5NDY1MzQsMTMuMTcwNzAwNyBMOS42NjgwNTM0NywxMy4xNzA3MDA3IEM5Ljg1MTI4Nzk1LDEzLjE3MDcwMDcgMTAsMTMuMDIxOTg4NiAxMCwxMi44Mzg3NTQxIEwxMCw1LjIwMzk4Mzg1IEMxMCw1LjAyMDc0OTM2IDkuODUxMjg3OTUsNC44NzIwMzczMSA5LjY2ODA1MzQ3LDQuODcyMDM3MzEgTDkuNjY4MDUzNDcsNC44NzIwMzczMSBaIE01LjExNjYyMzg4LDEwLjI1NzUzNzkgTDUuMTE2NjIzODgsMTAuMjU3NTM3OSBDNC42MjU1NjQzMSwxMC4yNTg0MjMxIDQuMTgyMzA1MDQsOS45NjM2NTQ1NiAzLjk5Mzc1OTQxLDkuNTEwNjU4MTkgQzMuODA0NTQ5ODgsOS4wNTc2NjE4MSAzLjkwODExNzIsOC41MzQ3MzUzNyA0LjI1NDg5MDY4LDguMTg3MDc2NyBDNC42MDE0NDI4Niw3LjgzOTYzOTMzIDUuMTIzNDg0MTEsNy43MzQ5NjU1MiA1LjU3NzM2NTY3LDcuOTIzNTExMTYgQzYuMDMxMjQ3MjMsOC4xMTExNzE2IDYuMzI2OTAwOTUsOC41NTM3NjY5OCA2LjMyNjkwMDk1LDkuMDQ0NjA1MjUgQzYuMzI2OTAwOTUsOS43MTM4MDk0NiA1Ljc4NTgyODEsMTAuMjU1NzY3NSA1LjExNjYyMzg4LDEwLjI1NzUzNzkgTDUuMTE2NjIzODgsMTAuMjU3NTM3OSBaIE03LjI5MjQyMjc3LDQuODcyMDM3MzEgTDIuNzA1ODA2ODUsNC44NzIwMzczMSBMMi43MDU4MDY4NSw0LjA3ODQ2MzggQzIuNzM5NDQ0MSwyLjgzNjMxOTg3IDMuNzU2MDg1NjksMS44NDY0NTUzIDQuOTk4MjI5NjIsMS44NDY0NTUzIEM2LjI0MTI1ODc0LDEuODQ2NDU1MyA3LjI1NzkwMDMzLDIuODM2MzE5ODcgNy4yOTE1Mzc1OCw0LjA3ODQ2MzggTDcuMjkxNTM3NTgsNC44NzIwMzczMSBMNy4yOTI0MjI3Nyw0Ljg3MjAzNzMxIFoiIGlkPSJQYWdlLTEiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+');
+    display: inline-block;
+    top: 2px;
+    margin-right: 3px;
+    position: relative;
+    height: 14px;
+    width: 14px;
+    background-repeat: no-repeat;
+    
+}
+.paymentMethods {
+    margin-top: 15px;
+}
+.paymentMethods li a {
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3), 0px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    height: 48px;
+    text-indent: -9999px;
+    display: block;
+}
+
+p.policy {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255,255,255,0.8);
+}
+p.policy a{
+    color: rgba(255,255,255,0.9);
+    border-bottom: 1px solid  rgba(255,255,255,0.5);
+    text-decoration: none;
+}
