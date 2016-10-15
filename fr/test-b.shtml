@@ -55,7 +55,7 @@
                                 </span>
                                 <span>
                                 <input id="rad2" type="radio" name="radioBtn">
-                                <label class="labels" for="rad2">Monthly</label>
+                                <label class="labels" for="rad2">Monthly 😍</label>
                                 </span>
                             </div>
                         </li>
@@ -70,6 +70,7 @@
                         <div class="hrule"></div>
                     </div>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
+                    <a href="#" class="backLink">&larr; Back</a>
                 </div>
 
             </div>
@@ -84,6 +85,10 @@
                 $( ".amountsToDonate li a" ).on('click touchstart',function() {
                     $("html, body").animate({ scrollTop: 0 }, "slow");
                     $(".selectPaymentMethod").fadeIn();
+
+                });
+                $(".backLink").on('click touchstart',function() {
+                                        $(".selectPaymentMethod").fadeOut();
 
                 });
 
