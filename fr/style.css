@@ -368,7 +368,7 @@ body.testB  {
 }
 
 .selectPaymentMethod {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -396,9 +396,48 @@ body.testB  {
     z-index: 6;
 }
 
-.selectPaymentMethod .secureLine {
-    
+.selectPaymentMethod .paymentMethods {
+    margin-top: 20px;
 }
+
+.selectPaymentMethod .paymentMethods li {
+    margin-bottom: 15px;
+}
+
+.selectPaymentMethod .secureLine {
+    back
+}
+
+.selectPaymentMethod .secureLine .patch {
+    background: transparent;
+    font-size: 14px;
+    color: #069778;
+    letter-spacing: 0;
+}
+
+.selectPaymentMethod .secureLine .hrule {
+    display: none;
+}
+
+.selectPaymentMethod .secureLine .lockIcon:before {
+    background-image: url(images/green-lock.svg);
+    background-size: 12px 15px;
+    height: 15px;
+    width: 12px;
+    margin-right: 4px;
+}
+
+.selectPaymentMethod .policy {
+    color: #666;
+    margin-top:20px;
+}
+
+.selectPaymentMethod .policy a {
+    color: #333;
+    border-bottom-color: #999;
+}
+
+
 
 .titleBar li {
     list-style: none;
@@ -411,11 +450,13 @@ body.testB  {
     text-align: left;
     font-size: 30px;
     font-weight: 200;
+    letter-spacing: 0.02em;
     width: 30%;
+    padding-left: 10px;
 }
 
 .titleBar .segmentedControl {
-    background-color: #fff;
+    float: right;
     padding: 2px 0;
     border-radius: 30px;
 }
@@ -427,6 +468,7 @@ body.testB  {
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 .segmentedControl span {
     display: inline-block;
@@ -438,7 +480,7 @@ body.testB  {
 }
 
 .segmentedControl [type=radio]:checked ~ label {
-    background: #EAF3FF;
-    color: #36c;
+    background: #36c;
+    color: #fff;
     
 }
