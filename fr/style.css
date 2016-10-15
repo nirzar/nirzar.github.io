@@ -356,15 +356,24 @@ body.testB  {
     height: 80px;
     
     line-height: 80px;
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
 }
 
 .amountsToDonate li:first-child a{
     background: #36c;
+}
+
+.amountsToDonate .sign {
+    opacity: 0.8;
+    font-size: 18px;
+    margin-right: 4px;
+    position: relative;
+    bottom: 6px;
+    font-weight: 200;
 }
 
 .selectPaymentMethod {
@@ -504,3 +513,4 @@ body.testB  {
     border-bottom-color: #444;
     background-size: 131px 20px;
 }
+
