@@ -32,7 +32,7 @@ ul {
 
 .wikipedia-logo {
     display: block;
-    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png');
+    background-image: url('images/wikipedia-black.svg');
     height: 32px;
     background-size: 120px 20px;
     background-repeat: no-repeat;
@@ -497,4 +497,9 @@ body.testB  {
     background: #F2F4F7;
     float: left;
     border-radius: 2px;
+}
+
+.testB .wikipedia-logo {
+    background-image: url(images/wikipedia-white.svg);
+    border-bottom-color: #444;
 }

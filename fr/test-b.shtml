@@ -32,7 +32,7 @@
                         <li><a href="#">$3</a></li>
                         <li><a href="#">$12</a></li>
                     </ul>
-                    <p class="chooseAmountHelp">ℹ️ $3 will help readers read 100 articles</p>
+                    <p class="chooseAmountHelp"><big>U+1F6C8</big> $3 will help readers read 100 articles</p>
                 </div>
 
 
@@ -70,7 +70,7 @@
                         <div class="hrule"></div>
                     </div>
                     <p class="policy">By submitting, you are agreeing to our <a href="#">donor privacy policy.</a> The Wikimedia Foundation is a nonprofit, <a href="#">tax-exempt organization.</a></p>
-                    <a href="#" class="backLink">&larr; Back</a>
+                    <a class="backLink">&larr; Back</a>
                 </div>
 
             </div>
