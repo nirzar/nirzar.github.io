@@ -29,8 +29,8 @@
                 <div class="donationAmount">
                     <p class="chooseAmountTitle">Choose an amount</p>
                     <ul class="amountsToDonate clearfix">
-                        <li><a href="#"><span class="sign">$</span>3 ☕</a></li>
-                        <li><a href="#"><span class="sign">$</span>12</a></li>
+                        <li><a href="#"><span class="currenySign">$</span>3 ☕</a></li>
+                        <li><a href="#"><span class="currenySign">$</span>12</a></li>
                     </ul>
                     <p class="chooseAmountHelp">$3 can help readers read 100 articles</p>
                 </div>
