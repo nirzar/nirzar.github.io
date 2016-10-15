@@ -82,12 +82,12 @@
 
             $( document ).ready(function() {
 
-                $( ".amountsToDonate li a" ).on('click touchstart',function() {
+                $( ".amountsToDonate li a" ).on('click',function() {
                     //$("html, body").animate({ scrollTop: 0 }, "slow");
                     $(".selectPaymentMethod").fadeIn();
 
                 });
-                $(".backLink").on('click touchstart',function() {
+                $(".backLink").on('click',function() {
                                         $(".selectPaymentMethod").fadeOut();
 
                 });
