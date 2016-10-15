@@ -83,7 +83,7 @@
             $( document ).ready(function() {
 
                 $( ".amountsToDonate li a" ).on('click touchstart',function() {
-                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                    //$("html, body").animate({ scrollTop: 0 }, "slow");
                     $(".selectPaymentMethod").fadeIn();
 
                 });
