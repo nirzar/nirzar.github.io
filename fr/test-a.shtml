@@ -52,7 +52,7 @@
                         <div class="hrule"></div>
                     </div>
                     <ul class="columns paymentMethods clearfix">
-                        <li class="paymentMethod1"><a href="#">Credit/debit Cards</a></li>
+                        <li class="paymentMethod1"><a href="#">Credit / Debit Cards</a></li>
                         <li class="paymentMethod2"><a href="#">Papal</a></li>
                         <li class="paymentMethod3"><a href="#">Amazon</a></li>
                     </ul>

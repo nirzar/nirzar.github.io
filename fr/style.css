@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-        font-family: sans-serif;
+    font-family: sans-serif;
 
 }
 * {
@@ -35,7 +35,6 @@ body {
     width: 100%;
     background-position: top left;
     margin-bottom: 10px;
-
     border-bottom: 1px dotted rgba(0,0,0,0.1);
 }
 .overlay {
@@ -49,7 +48,6 @@ body {
     text-align: left;
     padding: 20px;
     background: #EAECF0;
-    font-family: serif;
 }
 .ourStory h1 {
     font-size: 17px;
@@ -236,7 +234,7 @@ li.paymentMethod1 a{
     font-size: 10px;
     color: #333;
     text-decoration: none;
-    padding: 30px 5px 0px 5px;
+    padding: 30px 2px 0px 2px;
     font-weight: bold;
 }
 li.paymentMethod2 a{
@@ -250,4 +248,8 @@ li.paymentMethod3 a{
     background-repeat: no-repeat;
     background-size: 69px 25px;
     background-position: center 16px;
+}
+
+.policy {
+    font-size: 13px;
 }
