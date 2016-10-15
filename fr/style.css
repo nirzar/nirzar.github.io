@@ -236,7 +236,7 @@ li.paymentMethod1 a{
     font-size: 10px;
     color: #333;
     text-decoration: none;
-    padding-top: 30px;
+    padding: 30px 5px 0px 5px;
     font-weight: bold;
 }
 li.paymentMethod2 a{
