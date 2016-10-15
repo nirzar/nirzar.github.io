@@ -3,10 +3,11 @@
 body {
     padding: 0;
     margin: 0;
+        font-family: sans-serif;
+
 }
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 .clearfix:after {
@@ -61,7 +62,6 @@ body {
     font-size: 17px;
     font-weight: 500;
     line-height: 27px;
-
 }
 .ourStory .bodyText .highlight {
     background: #FDFF5A;
