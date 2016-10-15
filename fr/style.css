@@ -502,4 +502,5 @@ body.testB  {
 .testB .wikipedia-logo {
     background-image: url(images/wikipedia-white.svg);
     border-bottom-color: #444;
+    background-size: 131px 20px;
 }
