@@ -32,14 +32,17 @@
                         <li><a href="#"><span class="currenySign">$</span>3 ☕</a></li>
                         <li><a href="#"><span class="currenySign">$</span>12</a></li>
                     </ul>
-                    <p class="chooseAmountHelp">$3 can help readers read 100 articles</p>
+                    <p class="chooseAmountHelp">$3 can support reading of 100 articles</p>
                 </div>
 
 
 
             </div>
-            <div class="dismissOverlay">
-
+            <div class="dismissOverlay clearfix">
+                <ul class="dismissActions">
+                    <li><a href="#" class="secondaryDismiss">Remind me later</a></li>
+                    <li><a href="#" class="primaryDismiss">Close</a></li>
+                </ul>
             </div>
 
             <!-- modal window for paying -->

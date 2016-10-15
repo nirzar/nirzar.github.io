@@ -35,7 +35,7 @@
                             </li>
                             <li>
                                 <input type="radio" name="amount" id="amt-10" value="10"> 
-                                <label for="amt-10">$10 <span class="surprise">😍</span></label>                       
+                                <label for="amt-10">$12 <span class="surprise">😍</span></label>                       
                             </li>
                             <li>
 
@@ -47,7 +47,7 @@
                 </div>
                 <div class="waysToGive">
                     <div class="secureLine">
-                        <span class="patch"><span class="lockIcon"></span>Secure $3 Payment With</span>
+                        <span class="patch"><span class="lockIcon"></span>Secure Payment With</span>
                         <div class="hrule"></div>
                     </div>
                     <ul class="paymentMethods clearfix">
@@ -59,8 +59,11 @@
                 </div>
 
             </div>
-            <div class="dismissOverlay">
-
+            <div class="dismissOverlay clearfix">
+                <ul class="dismissActions">
+                    <li><a href="#" class="secondaryDismiss">Remind me later</a></li>
+                    <li><a href="#" class="primaryDismiss">Close</a></li>
+                </ul>
             </div>
 
         </div>
