@@ -9,7 +9,7 @@
         <title>Test B - Large - WMF Donations</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
-        <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+        <script   src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
         <link type='text/css' rel='stylesheet' href='style.css' />
     </head>
     <body class="testB">
