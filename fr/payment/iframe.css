@@ -119,7 +119,7 @@ input#btnSubmit {
         margin-top: 10px;
         
         font-size: 16px !important;
-        font-weight: bold;
+        font-weight: bold !important;
         width: 100%;
         padding: 14px !important;
         margin-bottom: 10px !important;
