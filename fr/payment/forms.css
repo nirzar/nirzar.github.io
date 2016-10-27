@@ -451,5 +451,12 @@ div.error-box h2 {
         
     }    
     
+    #greenBackground:before {
+        display: none;
+    }
+    #mw-page-base {
+        background: none !important; 
+    }
+    
 
 }
