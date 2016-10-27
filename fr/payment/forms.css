@@ -243,11 +243,6 @@ div.donor { width: 100% !important; }
   color: #006699;
   cursor: pointer;
   margin-bottom: .2em;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition:    all .3s ease-in-out;
-  -o-transition:      all .3s ease-in-out;
-  -ms-transition:     all .3s ease-in-out;
-  transition:         all .3s ease-in-out;
 }
 
 #payment-table-donor input[type="text"]:hover,
@@ -422,4 +417,35 @@ div.error-box {
 }
 div.error-box h2 {
     color: red;
+}
+
+/* extra styles only for mobile */
+@media only screen and (max-width : 400px) {
+    
+    td#donate form input[type="text"],
+    td#donate form input[type="email"],
+    td#donate form select{
+        display: block;
+        font-size: 1.2em;
+        box-shadow: none;
+        border:1px solid #ccc !important;
+    }
+    td#donate form input[type="text"]:hover,
+    td#donate form input[type="email"]:hover,
+    td#donate form select:hover{
+        background: #fff;
+        color: #666;
+        border:1px solid #999 !important;
+        
+    }    
+    td#donate form input[type="text"]:focus,
+    td#donate form input[type="email"]:focus,
+    td#donate form select:focus{
+        background: #fff;
+        color: #666;
+        border:1px solid #36c !important;
+        
+    }    
+    
+
 }
