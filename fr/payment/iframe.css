@@ -136,6 +136,7 @@ input#btnSubmit {
         
     }    
     input#btnSubmit {
+        -webkit-appearance:none;
         font-weight: bold;
         font-size: 16px;
         background: #00AF89 !important;
