@@ -431,7 +431,7 @@ div.error-box h2 {
     td#donate form input[type="email"]
     {
         display: block;
-        font-size: 1.2em;
+        font-size: 16px;
         padding: 14px !important;
         margin-bottom: 10px !important;
         background: #fff !important;
