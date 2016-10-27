@@ -110,6 +110,7 @@ input#btnSubmit {
     select {
         font-size: 16px;
         margin-top: 10px;
+        margin-right: 10px;    
     }
     input[type="text"],
     input[type="number"]
@@ -117,7 +118,8 @@ input#btnSubmit {
         box-sizing: border-box;
         margin-top: 10px;
         
-        font-size: 16px;
+        font-size: 16px !important;
+        font-weight: bold;
         width: 100%;
         padding: 14px !important;
         margin-bottom: 10px !important;
