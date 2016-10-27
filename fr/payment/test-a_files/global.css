@@ -1,0 +1,232 @@
+BODY, TD
+{
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    margin:0px;
+    padding:0px;
+  //text-align: left;
+}
+DIV,SPAN 
+{   
+    font-family:Verdana,Helvetica,sans-serif;
+    font-size:11px;
+} 
+A:link,A:active,A:visited,A:hover
+{
+/*    text-decoration:none; */
+} 
+FORM 
+{  
+    margin:0px;
+    padding:0px;
+}
+FIELDSET
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+} 
+IMG
+{ 
+    border:0px
+} 
+.ORB_BUTTON
+{
+    cursor:pointer;
+    font-weight:bolder;
+    padding:0px 10px 0px 10px;
+    width:151px
+} 
+.ORB_BUTTONELEMENT
+{
+    margin-left:125px;
+    margin-top:10px
+} 
+
+.ORB_BUTTONHELPTEXT
+{
+/*  display:none; 
+    COLOR: #000373;
+*/    
+    white-space: nowrap;
+}
+
+/* Style definitions Get Missing Data */
+.ORB_FIELDDESCRIPTION 
+{
+    border:0px;
+    margin-left:0px;
+    padding:3px 25px 0px 0px;
+    vertical-align:top;
+    width:100px 
+/*    COLOR: #000373; */
+}
+.ORB_INSTRUCTIONS
+{
+    padding-bottom:15px; 
+  color: #000373; 
+}
+.ORB_INSTRUCTIONTEXT
+{
+    padding-bottom:15px; 
+  color: #000373; 
+}
+.ORB_TD_ERRORLEFT,
+.ORB_TD_ERRORRIGHT
+{
+    color:red;
+    font-weight:bolder;
+    padding-left:10px;
+    vertical-align:top;
+} 
+.ORB_INPUT
+{
+     background-color:#FFFF6F;
+     border:1px solid #000000;
+     width:150px
+} 
+.ORB_INPUT_CENTS
+{
+     background-color:#FFFF6F;
+     border:1px solid #000000;
+} 
+
+.ORB_TABLE_ERRORMESSAGE,
+.ORB_TABLE_FIELDS
+{
+     border:0px;border-collapse:collapse;
+     margin:0px;
+     padding:0px;
+} 
+.ORB_TR_ERRORROW,
+.ORB_TR_FIELD
+{   
+    align:left;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    vertical-align:top
+}
+
+.ORB_MANDATORYMARKER {}
+.ORB_TD_FIELDELEMENT
+{
+    border:0px;
+    margin:0px;
+    padding-top:3px;
+    text-align: left;
+    vertical-align:top
+} 
+.ORB_SELECT
+{
+    background-color:#FFFF6F;
+    border:1px solid #000000;
+/*  width:151px */
+} 
+/* others?
+	tableMessage
+	messagetableOK
+	messagetableNOK
+	messagerowOK
+	messagerowNOK
+	messageOK
+	messageNOK
+        clsPaymentInstructions (BODY)
+	tablePaymentInstructions
+*/
+
+/* Style definitions Continue To Provider */
+.ORB_REDIRECT {}
+/* Style definitions Payment Instructions */
+.ORB_TR_PAYMENTINSTRUCTIONS {}
+.ORB_TD_PAYMENTINSTRUCTIONS {}
+.ORB_INSTRUCTIONTITLE 
+{
+    font-weight:bolder;
+}
+.ORB_TD_INSTRUCTIONIMAGE {}
+.ORB_INSTRUCTIONTITLE,
+.ORB_INSTRUCTIONSUBTITLE 
+{
+    font-weight:bolder;
+}
+.ORB_PAYMENTINSTRUCTION {}
+.ORB_PAYMENTINSTRUCTIONCAPTION {}
+.ORB_PAYMENTINSTRUCTIONFIELD {}
+/* Style definitions DCC */
+.ORB_DCC_INSTRUCTION 
+{     
+    font-weight:bolder; 
+    padding-top: 10px;
+}
+.ORB_DCC_MERCHANT 
+{
+    font-weight:bold;
+    padding-top: 10px;
+}
+.ORB_DCC_MERCHANT_AMOUNT
+{ 
+    font-weight:bolder; 
+    padding-top: 10px;
+}
+.ORB_DCC_TR_DISCLAIMER {
+    padding-top: 10px;
+}
+.ORB_DCC_ACCEPT 
+{
+    padding-top: 10px;
+}
+.ORB_DCC_ISSUER 
+{
+    font-weight:bold;
+    padding-top: 10px;
+}
+.ORB_DCC_ISSUER_AMOUNT 
+{
+    font-weight:bolder; 
+    padding-top: 10px;
+}	
+.ORB_DCC_RATE {}
+.ORB_DCC_RATE_CAPTION {}
+
+.hidden
+{
+    display: none; 
+}
+
+.Table7R3left
+{
+    vertical-align: top;
+    border: solid windowtext 1.5pt;
+    border-left: none;
+    padding: 0cm 5.4pt 0cm 5.4pt;
+    border-color: #999999;
+}
+
+.Table7R3top
+{
+    vertical-align: top;
+    border: solid windowtext 1.5pt;
+    border-top: none;
+    padding: 0cm 5.4pt 0cm 5.4pt;
+    border-color: #999999;
+}
+
+.Table7R7left
+{
+    vertical-align: top;
+    border: none;
+    border-left: solid windowtext .5pt;
+    border-right:solid windowtext .5pt;
+    padding:0cm 5.4pt 0cm 5.4pt;
+    border-color: #999999;
+}
+
+.Table7R7right
+{
+    vertical-align: top;
+    border:none;
+    border-right: solid windowtext .5pt;
+    padding:0cm 5.4pt 0cm 5.4pt;
+    border-color: #999999;
+}
