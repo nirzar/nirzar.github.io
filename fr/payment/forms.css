@@ -498,10 +498,15 @@ div.error-box h2 {
     
     #cards li {
         position: relative;
-        
+        border:1px solid transparent;
         background: #fff;
         margin-right: 2% !important;
         width:23% !important;
+    }
+    
+    #cards li:hover {
+        background: #EAF3FF !important;
+        border: 1px solid #36c;
     }
 
 }
