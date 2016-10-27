@@ -104,6 +104,47 @@ input#btnSubmit {
 /* extra styles only for mobile */
 @media only screen and (max-width : 400px) {
     
-
-
+    #tableMissingFields {
+        width: 100%;
+    }
+    select {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="number"]
+    {
+        box-sizing: border-box;
+        margin-top: 10px;
+        
+        font-size: 1.2em;
+        width: 100%;
+        padding: 14px !important;
+        margin-bottom: 10px !important;
+        background: #fff !important;
+        box-shadow: inset 0 0 0 0.1em #fff !important;
+        border-radius: 2px !important;
+        -webkit-appearance:none;
+        border:1px solid #ccc !important;
+    }
+    input[type="text"],
+    input[type="number"]
+    {
+        background: #fff;
+        color: #666;
+        border:1px solid #999 !important;
+        
+    }    
+    input#btnSubmit {
+        font-weight: bold;
+        font-size: 16px;
+        background: #00AF89 !important;
+        color: #fff;
+        text-transform: none !important;
+        padding: 15px !important;
+        width: 100%;
+    }
+    input#btnSubmit:hover {
+        background: #08A382 !important;
+    }
 }
