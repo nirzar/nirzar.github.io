@@ -423,7 +423,7 @@ div.error-box h2 {
 @media only screen and (max-width : 400px) {
     
     body {
-        background-color: #fff;
+        background-color: #EAECF0;
     }
     
     td#donate form input[type="text"],
@@ -454,8 +454,11 @@ div.error-box h2 {
     #greenBackground:before {
         display: none;
     }
+    #greenBackground {
+        background: transparent !important; 
+    }
     body #mw-page-base {
-        background: none !important; 
+        background: transparent !important; 
     }
     
 
