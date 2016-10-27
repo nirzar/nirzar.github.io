@@ -435,7 +435,7 @@ div.error-box h2 {
         background: #fff !important;
         box-shadow: inset 0 0 0 0.1em #fff !important;
         border-radius: 2px !important;
-        
+        -webkit-appearance:none;
         border:1px solid #ccc !important;
     }
     td#donate form input[type="text"]:hover,
