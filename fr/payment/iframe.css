@@ -117,7 +117,6 @@ input#btnSubmit {
     {
         box-sizing: border-box;
         margin-top: 10px;
-        
         font-size: 16px !important;
         font-weight: bold !important;
         width: 100%;
@@ -129,14 +128,23 @@ input#btnSubmit {
         -webkit-appearance:none;
         border:1px solid #ccc !important;
     }
-    input[type="text"],
-    input[type="number"]
+    input[type="text"]:hover,
+    input[type="number"]:hover
     {
         background: #fff;
         color: #666;
         border:1px solid #999 !important;
         
     }    
+    input[type="text"]:focus,
+    input[type="number"]:focus
+    {
+    
+        color: #333;
+        border:1px solid #36c !important;
+        
+    }    
+    
     input#btnSubmit {
         -webkit-appearance:none;
         font-weight: bold;
