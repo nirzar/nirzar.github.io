@@ -424,6 +424,7 @@ div.error-box h2 {
     
     body {
         background-color: #EAECF0;
+        box-sizing: border-box;
     }
     
     td#donate form input[type="text"],
@@ -434,7 +435,7 @@ div.error-box h2 {
         background: #fff !important;
         box-shadow: inset 0 0 0 0.1em #fff !important;
         border-radius: 2px !important;
-        -webkit-appearance:none;
+        
         border:1px solid #ccc !important;
     }
     td#donate form input[type="text"]:hover,
@@ -457,8 +458,14 @@ div.error-box h2 {
     #greenBackground:before {
         display: none;
     }
-    #greenBackground {
-        background: transparent !important; 
+    body #mw-content-text #donate #greenBackground {
+        background: transparent !important;
+        padding: 10px !important; 
+        margin: 0 auto !important;
+    }
+    body #mw-content-text #donate {
+        padding: 0 !important;
+        
     }
     body #mw-page-base {
         background: transparent !important; 
