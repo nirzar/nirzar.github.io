@@ -428,8 +428,8 @@ div.error-box h2 {
     }
     
     td#donate form input[type="text"],
-    td#donate form input[type="email"],
-    td#donate form select{
+    td#donate form input[type="email"]
+    {
         display: block;
         font-size: 1.2em;
         background: #fff !important;
@@ -439,8 +439,8 @@ div.error-box h2 {
         border:1px solid #ccc !important;
     }
     td#donate form input[type="text"]:hover,
-    td#donate form input[type="email"]:hover,
-    td#donate form select:hover{
+    td#donate form input[type="email"]:hover
+    {
         background: #fff;
         color: #666;
         border:1px solid #999 !important;
@@ -460,7 +460,7 @@ div.error-box h2 {
     }
     body #mw-content-text #donate #greenBackground {
         background: transparent !important;
-        padding: 10px !important; 
+        padding: 5px !important; 
         margin: 0 auto !important;
     }
     body #mw-content-text #donate {
