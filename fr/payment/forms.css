@@ -461,10 +461,11 @@ div.error-box h2 {
     body #mw-content-text #donate #greenBackground {
         background: transparent !important;
         padding: 5px !important; 
-        margin: 0 auto !important;
     }
     body #mw-content-text #donate {
         padding: 0 !important;
+        margin: 0 auto !important;        
+        width: 100%;
         
     }
     body #mw-page-base {
