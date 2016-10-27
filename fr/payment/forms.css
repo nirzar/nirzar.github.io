@@ -498,24 +498,10 @@ div.error-box h2 {
     
     #cards li {
         position: relative;
-        height: 66px;
+        
         background: #fff;
         margin-right: 2% !important;
         width:23% !important;
     }
-    #cards li > input,
-    #cards li > label
-    {
-        position: absolute;
-        
-    }
-    #cards li > label {
-        top: -2px;
-        left: 0px;
-    }
-    #cards li > input {
-        bottom: 10px;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+
 }
