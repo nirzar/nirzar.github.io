@@ -432,6 +432,8 @@ div.error-box h2 {
     {
         display: block;
         font-size: 1.2em;
+        padding: 14px !important;
+        margin-bottom: 10px !important;
         background: #fff !important;
         box-shadow: inset 0 0 0 0.1em #fff !important;
         border-radius: 2px !important;
@@ -494,5 +496,26 @@ div.error-box h2 {
         display: none;
     }
     
-
+    #cards li {
+        position: relative;
+        height: 66px;
+        background: #fff;
+        margin-right: 2% !important;
+        width:23% !important;
+    }
+    #cards li > input,
+    #cards li > label
+    {
+        position: absolute;
+        
+    }
+    #cards li > label {
+        top: -2px;
+        left: 0px;
+    }
+    #cards li > input {
+        bottom: 10px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
