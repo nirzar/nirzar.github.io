@@ -465,12 +465,33 @@ div.error-box h2 {
     body #donate {
         padding: 0 !important;
         margin: 0 auto !important;        
-        min-width: 300px !important;
-        
+        min-width: 100% !important;
         
     }
     body #mw-page-base {
         background: transparent !important; 
+    }
+    
+    .amount_header {
+        text-transform: capitalize;
+    }
+    
+    #selected-amount {
+        color: #36c;
+        letter-spacing: 0.02em;
+    }
+    h3.cc_header {
+        text-transform: capitalize;
+    }
+    h3.cc_header img {
+        display: none;
+    }
+    
+    /* optional */
+    td#donate form input#street,
+    td#donate form input#city,
+    td#donate form select#state {
+        display: none;
     }
     
 
