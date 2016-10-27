@@ -422,6 +422,10 @@ div.error-box h2 {
 /* extra styles only for mobile */
 @media only screen and (max-width : 400px) {
     
+    body {
+        background-color: #fff;
+    }
+    
     td#donate form input[type="text"],
     td#donate form input[type="email"],
     td#donate form select{
