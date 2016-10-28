@@ -436,6 +436,7 @@ div.error-box h2 {
         height: 32px;
         border-radius: 2px !important;
         color: #666 !important;
+        margin-bottom: 10px !important;
     }
     select:hover {
         background: #fff;
@@ -513,6 +514,9 @@ div.error-box h2 {
         margin-right: 2% !important;
         width:23% !important;
     }
+    #cards li img {
+        width: 44px;
+    }
     
     #cards li:hover {
         background: #EAF3FF !important;
@@ -543,6 +547,11 @@ div.error-box h2 {
     margin-right: 6px;
     top: 1px;
 
+    }
+    p#informationsharing {
+        padding: 0px !important;
+        font-size: 12px;
+        line-height: 20px;
     }
 
 }
