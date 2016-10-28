@@ -422,6 +422,26 @@ div.error-box h2 {
 /* extra styles only for mobile */
 @media only screen and (max-width : 400px) {
     
+    
+    /* add branding */
+    
+    #content:before {
+        content: " ";
+
+    display: block;
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png');
+    height: 32px;
+    background-size: 120px 20px;
+    background-repeat: no-repeat;
+text-indent: -9999px;
+    width: 100%;
+    background-position: top center;
+    margin-bottom: 10px;
+    
+    border-bottom: 1px dotted rgba(0,0,0,0.1);
+
+    }
+    
     body {
         background-color: #EAECF0;
         box-sizing: border-box;
