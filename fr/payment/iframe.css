@@ -85,6 +85,7 @@ input, select {
     color: #006699;
     cursor: pointer;
     margin-bottom: .2em;
+    min-width: 100px;
 }
 
 input.ORB_SELECT:first-child {

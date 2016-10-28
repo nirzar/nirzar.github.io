@@ -479,12 +479,17 @@ div.error-box h2 {
     body #mw-content-text #donate #greenBackground {
         background: transparent !important;
         padding: 0px !important; 
+        width: 100% !important;
     }
     body #donate {
         padding: 0 !important;
         margin: 0 auto !important;        
-        min-width: 100% !important;
+        min-width: 200px !important;
+        max-width: 400px !important;
         
+    }
+    body #donate iframe {
+        width: 100% !important;
     }
     body #mw-page-base {
         background: transparent !important; 
