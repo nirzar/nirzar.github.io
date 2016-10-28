@@ -431,7 +431,7 @@ div.error-box h2 {
         display: block;
         background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia_wordmark@2x.png');
         height: 32px;
-        background-size: 120px 20px;
+        background-size: 120px 21px;
         background-repeat: no-repeat;
         text-indent: -9999px;
         width: 100%;
@@ -510,6 +510,7 @@ div.error-box h2 {
     }
     body #donate iframe {
         width: 100% !important;
+        height: 350px !important;
     }
     body #mw-page-base {
         background: transparent !important; 
