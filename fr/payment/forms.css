@@ -544,10 +544,13 @@ body #donate iframe {
         position: relative;
         border:1px solid transparent;
         background: #fff;
-        margin-right: 2% !important;
+        margin-right: 2.5% !important;
         padding: 0px !important;
         width:23% !important;
         height: 82px;
+    }
+    #cards li:last-child {
+        margin-right: 0px !important;
     }
     #cards li input.cardradio {
         padding: 10px !important;
