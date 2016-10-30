@@ -545,22 +545,35 @@ body #donate iframe {
         border:1px solid transparent;
         background: #fff;
         margin-right: 2% !important;
+        padding: 0px !important;
         width:23% !important;
+        height: 72px;
     }
-
+    #cards li input.cardradio {
+        padding: 10px !important;
+        margin: 0px !important;
+        display: block;
+        width: 100% !important;
+        height: 30px;
+        left: 36%;
+        position: relative;
+        padding-left: 80px !important;
+    }
+    #cards li label {
+        margin: 0 !important;
+    }
     #cards li:hover {
         background: #EAF3FF !important;
         border: 1px solid #36c;
     }
     .mw-donate-submessage {
         text-transform: capitalize;
-        font-size: 12px !important;
+        font-size: 14px !important;
         font-weight: 500;
         color: #009978;
         display: block;
         margin: 10px 0px !important;
-        padding: 10px 0px;
-        border-top: 1px dotted #ccc;
+        padding: 0px 0px 10px 0px;
         border-bottom: 1px dotted #ccc;
     }
     .mw-donate-submessage img {
