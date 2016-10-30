@@ -548,6 +548,7 @@ body #donate iframe {
         padding: 0px !important;
         width:23% !important;
         height: 82px;
+        font-size: 12px !important;
     }
     #cards li:last-child {
         margin-right: 0px !important;
