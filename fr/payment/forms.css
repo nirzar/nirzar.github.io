@@ -547,17 +547,18 @@ body #donate iframe {
         margin-right: 2% !important;
         padding: 0px !important;
         width:23% !important;
-        height: 72px;
+        height: 82px;
     }
     #cards li input.cardradio {
         padding: 10px !important;
-        margin: 0px !important;
+        margin: 5px !important;
         display: block;
         width: 100% !important;
         height: 30px;
-        left: 36%;
-        position: relative;
-        padding-left: 80px !important;
+        box-sizing: border-box !important;
+        
+        
+        
     }
     #cards li label {
         margin: 0 !important;
