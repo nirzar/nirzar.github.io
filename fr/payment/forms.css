@@ -305,6 +305,11 @@ div.donor { width: 100% !important; }
     transition:         all .3s ease-in-out;
 }
 
+#cards li img {
+    width: 44px;
+}
+
+
 #cards.three-per-line li {
     width: 32.63%;
     padding: 1em;
@@ -539,9 +544,6 @@ div.error-box h2 {
         background: #fff;
         margin-right: 2% !important;
         width:23% !important;
-    }
-    #cards li img {
-        width: 44px;
     }
 
     #cards li:hover {
