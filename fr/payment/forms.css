@@ -424,6 +424,11 @@ div.error-box h2 {
     color: red;
 }
 
+body #donate iframe {
+    width: 100% !important;
+    height: 350px !important;
+}
+
 /* extra styles only for mobile */
 @media only screen and (max-width : 400px) {
 
@@ -513,10 +518,7 @@ div.error-box h2 {
         max-width: 400px !important;
 
     }
-    body #donate iframe {
-        width: 100% !important;
-        height: 350px !important;
-    }
+
     body #mw-page-base {
         background: transparent !important; 
     }
