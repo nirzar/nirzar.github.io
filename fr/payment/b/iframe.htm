@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0130)https://na.gcsip.com/orb/orb?ACTION=DO_START&REF=000000657007014732460000100001&MAC=NlsHrDOw4xHOY1i50xlw2GCUJzGIXseEkZQIWjXo8yQ%3D -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="gr__na_gcsip_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Wikimedia Foundation Inc. - Visa Online</title>
+
+<link rel="stylesheet" type="text/css" href="./iframe_files/global.css">
+
+<link href="./iframe_files/load.php" type="text/css" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="iframe.css">
+<script language="JavaScript1.2" type="text/javascript" src="./iframe_files/GetMissingDataAll.js"></script>
+<script language="JavaScript1.2" type="text/javascript">
+
+var m_bIsAlreadySubmitted   = false;
+var m_sMessageFormSubmitted = "Already processing.... Just a moment.";
+var m_sSelected             = null;
+
+function init()
+{
+    formValidation = new FormValidation();
+    formValidation.validateHiddenFields = true;   // expirydate (aggregate field)
+    formValidation.iErrorHandling = 2;
+//  SJN: hidden is not what should be used, but style="display: none;" => as in CCA
+
+    formValidation.language["accept"]    = "The terms and conditions must be accepted!";
+    formValidation.language["start"]     = "";
+    formValidation.language["header"]    = "Attention!";
+    formValidation.language["require"]   = "<!-0->";
+    formValidation.language["positions"] = "Field {0} must exist of a minimum of {1} and a maximum of {2} characters.";
+    formValidation.language["numeric"]   = "Field {0} must contain a number.";
+    formValidation.language["invalid"]   = "{0} is invalid!";
+    formValidation.language["minlength"] = "Field {0} has a minimum length of {1} characters.";
+    formValidation.language["maxlength"] = "Field {0} has a maximum length of {1} characters.";
+    formValidation.language["minvalue"]  = "Field {0} must be at least {1}.";
+    formValidation.language["maxvalue"]  = "Field {0} may not exceed {1}.";
+    formValidation.language["cvv"]       = "Field {0} is required.";
+
+    m_hBBAN_IBAN = new Array();
+
+
+    formValidation.define("F1009", "CREDITCARDNUMBER"
+                        , 10001, true, "Card No.:"
+                        , 12, 19
+                        , null, null, document, 0);
+
+    formValidation.define("F1010", "EXPIRYDATE"
+                        , 10221, true, "Expiration date:"
+                        , 4, 4
+                        , null, null, document, 0);
+
+    formValidation.define("F1136", "CVV"
+                        , 10063, false, "Security code:"
+                        , 3, 4
+                        , null, null, document, 0);
+
+
+    if ( (m_hBBAN_IBAN != null) && isFilled('null') ) { // QUAD-612,QUAD-608
+        setBBAN_IBAN('null');
+    }
+
+        setFocus("F1009");
+
+}
+</script>
+
+
+</head>
+
+<body id="pageGetMissingData" onload="init();" data-gr-c-s-loaded="true">
+
+<div id="MISSING">
+<div class="ORB_INSTRUCTIONS">Payment details:</div>
+<div class="ORB_INSTRUCTIONTEXT"><span></span></div>
+<form id="formGetMissingData" method="post" action="https://na.gcsip.com/orb/orb;jsessionid=55BD47FE5282CD64A1759E97858BE2D1" onsubmit="return doContinuePayment();">
+<input type="hidden" name="ACTION" id="ACTION" value="DO_CONTINUE">
+<input type="hidden" name="PAYMENTPRODUCTID" id="PAYMENTPRODUCTID" value="1">
+<input type="hidden" name="REF" id="REF" value="000000657007014732460000100001">
+
+
+
+
+<table id="tableMissingFields" class="ORB_TABLE_FIELDS">
+
+
+
+
+<tbody><tr id="FIELD_F1009" class="ORB_TR_FIELD" style="display: &#39;&#39;;">
+<td class="ORB_TD_FIELDELEMENT">
+<span id="LABEL_F1009"><label for="F1009">Card No.:</label></span>
+<br><input id="F1009" class="ORB_INPUT" type="number" pattern="\d*" aria-required="true" aria-describedby="ERRORMESSAGE_F1009 cc_example" name="CREDITCARDNUMBER" size="20" maxlength="19" autocomplete="off" value=""><span id="cc_example" style="display:none">(E.g.: 4200 1111 2222 3333)</span><input id="F1009_OBFUSCATED" class="ORB_INPUT" type="hidden" name="CREDITCARDNUMBER_OBFUSCATED" size="20" maxlength="19" value=""><input id="F1009_CLEAR" class="ORB_INPUT" type="hidden" name="CREDITCARDNUMBER_CLEAR" size="20" maxlength="19" value="">
+
+<span id="MANDATORY_F1009" for="F1009">*</span>
+<br>
+<div id="ERROR_F1009" style="display:none">
+<table class="ORB_TABLE_ERRORMESSAGE" cellpadding="0" cellspacing="0" border="0">
+<tbody><tr class="ORB_TR_ERRORROW">
+<td class="ORB_TD_ERRORLEFT" width="15">!</td>
+<td id="ERRORMESSAGE_F1009" class="ORB_TD_ERRORRIGHT">Please enter the card number correctly before submitting your details</td>
+</tr></tbody></table></div></td></tr>
+
+
+
+<tr id="FIELD_F1010" class="ORB_TR_FIELD" style="display: &#39;&#39;;">
+<td class="ORB_TD_FIELDELEMENT">
+<span id="LABEL_F1010"><label for="F1010">Expiration date:</label></span>
+<br><select id="F1010_MM" class="ORB_SELECT" aria-required="true" aria-describedby="ERRORMESSAGE_F1010" name="EXPIRYDATE_MM" aria-label="Expiration date:">
+<option value="">Month</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option></select><select id="F1010_YY" class="ORB_SELECT" aria-required="true" aria-describedby="ERRORMESSAGE_F1010" name="EXPIRYDATE_YY" aria-label="Expiration date:">
+<option value="">Year</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option></select><input id="F1010" type="hidden" name="EXPIRYDATE" value="">
+
+<span id="MANDATORY_F1010" for="F1010">*</span>
+<br>
+<div id="ERROR_F1010" style="display:none">
+<table class="ORB_TABLE_ERRORMESSAGE" cellpadding="0" cellspacing="0" border="0">
+<tbody><tr class="ORB_TR_ERRORROW">
+<td class="ORB_TD_ERRORLEFT" width="15">!</td>
+<td id="ERRORMESSAGE_F1010" class="ORB_TD_ERRORRIGHT">Please enter the expiration date correctly before submitting your details</td>
+</tr></tbody></table></div></td></tr>
+
+
+
+<tr id="FIELD_F1136" class="ORB_TR_FIELD" style="display: &#39;&#39;;">
+<td class="ORB_TD_FIELDELEMENT">
+<span id="LABEL_F1136"><label for="F1136">Security code:</label></span>
+<br><input id="F1136" class="ORB_INPUT" type="text" name="CVV" size="3" maxlength="4" autocomplete="off" value=""><input id="F1136_OBFUSCATED" class="ORB_INPUT" type="hidden" name="CVV_OBFUSCATED" size="3" maxlength="4" value=""><input id="F1136_CLEAR" class="ORB_INPUT" type="hidden" name="CVV_CLEAR" size="3" maxlength="4" value=""><a href="https://na.gcsip.com/orb/orb?ACTION=DO_START&amp;REF=000000657007014732460000100001&amp;MAC=NlsHrDOw4xHOY1i50xlw2GCUJzGIXseEkZQIWjXo8yQ%3D#" class="Normal" onclick="javascript: openCVVHelpWindow(&#39;/CVVHelp.jsp;jsessionid=55BD47FE5282CD64A1759E97858BE2D1&#39;); return false;">What is a security code?</a>
+
+<span id="MANDATORY_F1136" for="F1136">&nbsp;</span>
+<br>
+<div id="ERROR_F1136" style="display:none">
+<table class="ORB_TABLE_ERRORMESSAGE" cellpadding="0" cellspacing="0" border="0">
+<tbody><tr class="ORB_TR_ERRORROW">
+<td class="ORB_TD_ERRORLEFT" width="15">!</td>
+<td id="ERRORMESSAGE_F1136" class="ORB_TD_ERRORRIGHT">Please enter correctly your Security code:</td>
+</tr></tbody></table></div></td></tr>
+
+
+
+</tbody></table>
+<div class="ORB_BUTTONELEMENT">
+<input id="btnSubmit" type="submit" value="Donate now" class="ORB_BUTTON" onclick="return onSubmit(false);">
+<span class="ORB_BUTTONHELPTEXT"><label for="btnSubmit"></label></span>
+<input id="btnCancel" type="button" value="Cancel" class="ORB_BUTTON" onclick="return returnToMerchant(&#39;formGetMissingData&#39;);">
+<span class="ORB_BUTTONHELPTEXT"><label for="btnCancel">Press this button to return to the shop...</label></span>
+</div>
+
+</form></div>
+
+<div class="hidden" id="PROGRESS">
+<table>
+<tbody><tr><td>Please wait while we process your payment</td></tr>
+<tr>
+<td>
+<img src="./iframe_files/progress_globalcollect.gif" alt="Your payment is now being processed...">
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+
+
+</body></html>
