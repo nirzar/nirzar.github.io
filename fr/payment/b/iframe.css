@@ -154,19 +154,5 @@ input#btnSubmit {
 
     }    
 
-    input#btnSubmit {
-        -webkit-appearance:none;
-        font-weight: bold;
-        font-size: 16px !important;
-        border-radius: 2px !important;
-     box-shadow: 0px 2px 13px rgba(0,0,0,0.2) !important;
-        background: #00AF89 !important;
-        color: #fff;
-        text-transform: none !important;
-        padding: 15px !important;
-        width: 100%;
-    }
-    input#btnSubmit:hover {
-        background: #08A382 !important;
-    }
+   
 }

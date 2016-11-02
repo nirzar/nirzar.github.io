@@ -549,31 +549,7 @@ body #donate iframe {
         background: #EAF3FF !important;
         border: 1px solid #36c;
     }
-    .mw-donate-submessage {
-        text-transform: capitalize;
-        font-size: 14px !important;
-        font-weight: 500;
-        color: #009978;
-        display: block;
-        margin: 10px 0px !important;
-        padding: 0px 0px 10px 0px;
-        border-bottom: 1px dotted #ccc;
-    }
-    .mw-donate-submessage img {
-        display: none;
-    }
-    .mw-donate-submessage:before {
-        content: " ";
-        display: inline-block;
-        position: relative;
-        background-image: url(green-lock.svg);
-        background-size: 11px 14px;
-        height: 14px;
-        width: 11px;
-        margin-right: 6px;
-        top: 1px;
 
-    }
     p#informationsharing {
         padding: 0px !important;
         font-size: 12px;
