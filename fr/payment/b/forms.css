@@ -438,21 +438,6 @@ body #donate iframe {
         box-sizing: border-box;
     }
 
-    select#state {
-        font-size: 16px !important;
-        padding: 10px !important;
-        background: #fff !important;
-        border: 1px solid #ccc !important;
-        box-shadow: none !important;
-        height: 32px;
-        border-radius: 2px !important;
-        color: #666 !important;
-        margin-bottom: 10px !important;
-    }
-    select:hover {
-        background: #fff;
-        color: #222 !important;
-    }
 
     td#donate form input[type="text"],
     td#donate form input[type="email"]
