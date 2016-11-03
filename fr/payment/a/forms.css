@@ -548,21 +548,18 @@ body #donate iframe {
         padding: 0px !important;
         width:23% !important;
         height: 82px;
-        font-size: 12px !important;
+        font-size: 13px !important;
+        border: 1px solid #ccc;
     }
     #cards li:last-child {
         margin-right: 0px !important;
     }
     #cards li input.cardradio {
         padding: 10px !important;
-        margin: 5px !important;
+        margin: 10px !important;
         display: block;
         width: 100% !important;
-        height: 30px;
         box-sizing: border-box !important;
-        
-        
-        
     }
     #cards li label {
         margin: 0 !important;
