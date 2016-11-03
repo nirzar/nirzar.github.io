@@ -533,10 +533,10 @@ body #donate iframe {
     }
     #cards li input.cardradio {
         padding: 10px !important;
-        margin: 5px !important;
+        margin: 10px !important;
         display: block;
         width: 100% !important;
-        height: 30px;
+        
         box-sizing: border-box !important;
         
         
