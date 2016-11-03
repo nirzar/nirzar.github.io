@@ -527,6 +527,7 @@ body #donate iframe {
         width:23% !important;
         height: 82px;
         font-size: 13px !important;
+         border: 1px solid #ccc;
     }
     #cards li:last-child {
         margin-right: 0px !important;
