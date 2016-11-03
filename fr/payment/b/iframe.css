@@ -111,7 +111,7 @@ input#btnSubmit {
     table label {
         font-size: 13px;
         color: #666;
-        
+
     }
     table.ORB_TABLE_FIELDS td {
         padding: 10px 0px !important;
@@ -153,6 +153,4 @@ input#btnSubmit {
         border:1px solid #36c !important;
 
     }    
-
-   
 }
