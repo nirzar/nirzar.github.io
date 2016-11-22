@@ -408,6 +408,14 @@ div.error-box {
 div.error-box h2 {
     color: red;
 }
+.close-button {
+    background: rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    text-align: center;
+    cursor: pointer;
+}
 @media screen and (max-width: 981px) {
     body {
         background-color: #f5f5f5;
@@ -423,6 +431,7 @@ div.error-box h2 {
         border-radius: 2px !important;
         color: #666 !important;
         margin-bottom: 10px !important;
+        transition: none;
     }
     select#state:hover {
         background: #fff;
@@ -441,6 +450,7 @@ div.error-box h2 {
         border-radius: 2px;
         -webkit-appearance:none;
         border:1px solid #ccc !important;
+        transition: none;
     }
     td#donate form input[type="text"]:hover,
     td#donate form input[type="email"]:hover
